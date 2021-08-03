@@ -1,0 +1,8 @@
+
+load data infile '~/Desktop/data/administrator.csv'
+into table administrator set gb2312
+fields terminated by ',' optionally enclosed by '"' escaped by '"'
+lines terminated by '\r\n';
+
+
+6108
